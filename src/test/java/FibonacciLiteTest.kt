@@ -3,9 +3,6 @@ import io.kotlintest.properties.TableTesting
 import org.junit.Test
 
 class FibonacciLiteTest : TableTesting {
-    init {
-
-    }
     @Test
     fun `calculates fibonacci number`() {
         val table = table(
